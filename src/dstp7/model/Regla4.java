@@ -1,6 +1,8 @@
 package dstp7.model;
 import java.util.ArrayList;
 public class Regla4 implements IRegla{
+    /*Viernes, sábado y domingo: solo en compras superiores a $15000,
+    se aplica un 10% de descuento a todos los productos con más de tres unidades*/
         private static final double porcentaje = 0.1d;
         @Override
         public double calcularDescuento(Venta venta){

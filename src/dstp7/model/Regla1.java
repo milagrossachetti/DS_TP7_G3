@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.Optional;
 
 public class Regla1 implements IRegla{
+    /*Lunes: llevando 2 o 3 productos iguales de "panaderia" la segunda y tercera unidad van al 50% de su valor.
+    Si se llevan más unidades el precio es el mismo*/
     private static final double porcentaje = 0.5d;
     private final Rubro rubro;
 

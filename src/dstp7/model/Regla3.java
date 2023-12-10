@@ -1,6 +1,8 @@
 package dstp7.model;
 import java.util.ArrayList;
 public class Regla3 implements IRegla{
+    /*Jueves: llevando hasta 5 unidades iguales en Lacteos o Verduras, desde la segunda y hasta la quinta unidad
+    se aplica un 30% de descuento a cada una*/
         private static final double porcentaje = 0.3d;
         private final Rubro rubro1;
         private final Rubro rubro2;
